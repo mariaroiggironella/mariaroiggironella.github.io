@@ -1,0 +1,96 @@
+body{
+  font-family: "helvetica";
+  color:#FFFFFF;
+  background-color:#000000;
+	text-align: center;
+
+}
+
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+
+  max-width: 1200px;
+  width: 100%;
+  display: inline-block;
+}
+
+.topnav{
+  background-color: #000000;
+  height:100px;
+  text-align: left;
+
+}
+
+.layout{
+	width:100%;
+	height: 100px;
+	background-color:#000000;
+
+}
+
+
+/* HERO CONTENT */
+
+HERO CONTENT
+
+.hero_copy{
+	font-size: 36px;
+	ont-weight: bold;
+	color:blue;
+}
+.hero_text_headline{
+	font-weight: bold;
+	font-size: 36px;
+	color:#E50913;
+}
+
+.hero_content img{
+	width:80%;
+}
+
+
+
+/* HIGHLIGHT CONTENT */
+
+.highlight{
+  height:100%;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: center;
+	
+}
+
+
+.highlight .section{
+   color: #E50913;
+   text-transform: uppercase;
+   font-weight: bold;
+	font-family:"helvetica";
+	font-size: 20px;
+	text-align: center;
+	  overflow: auto;
+
+}
+
+.highlight img{
+	float: none;
+	max-height: 200px;
+}
+
+/* [class^="highlight"] element that starts with */
+div [class^="highlight"]:first-of-type {
+    margin: 0px;
+   
+}
+
+div [class^="highlight"]:last-of-type {
+    margin: 0px;
+   
+}
