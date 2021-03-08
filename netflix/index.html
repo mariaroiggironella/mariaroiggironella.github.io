@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Grid</title>
+  <meta name="description" content="Basic Grid">
+  <meta name="keywords" content="html, css,floats, float left, float right, clearfix, simple grid">  
+  <meta name="author" content="Intro to Web"> 
+    
+  <!-- THIS IS A LINK TO THE EXTERNAL .CSS --> 
+  <link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/layout.css">
+    
+</head>
+    
+
+<body>
+
+<div class= "outer">
+	
+	<div class="navarea">
+	
+    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="netflix logo" class="logoimage" border="0"></a></div>
+	
+	<div class="navbar">
+    Cast    Trailers    Merch 
+	</div>
+	
+	<div class="search"><a href="search.html"><img src="img/search.png" alt="search here" class="searchimage" border="0"></a></div> 
+	
+</div>
+
+<div class="page">
+	
+    <div class="container">
+        
+        <!-- Full row, spanning 12 columns of a 12 column grid --> 
+        <div class="row">
+            <div class="col-12">
+                <div class="hero_content">
+    
+	 			 <img src="img/office_hero.jpg" alt="new season"/>
+				<p class="hero_text_headline">
+   				  The season everyone has been waiting for</p>
+    
+ 				 </div>
+            </div>
+        </div>
+        
+        
+
+        <!-- a row of 4 equal modules --> 
+        <div class="row">
+            <div class="col-3" >
+                <div class="highlight">
+<img src="img/michael.png" alt="michael scott"/>
+<p class="section">Michael Scott</p>
+<p> Regional Manager</p>
+</div>
+            </div>
+            <div class="col-3"  >
+                <div class="highlight">
+    <img src="img/dwight.png" alt="dwight"/><br>
+    <span class="section">Dwight Schrute</span><br>
+    Assistant (to the) Regional Manager 
+  </div>
+            </div>
+            <div class="col-3"  >
+                <div class="highlight">
+    <img src="img/pam.png" alt="pam"/><br>
+    <span class="section">Pam Beesly</span><br>
+Secretary
+  </div>
+            </div>
+            <div class="col-3"  >
+                <div class="highlight">
+    <img src="img/jim.png" alt="jim"/><br>
+    <span class="section">Jim Halpert</span><br>
+Sales Manager
+  </div>
+            </div>
+        </div>
+
+        
+        </div>
+        
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
+ 
