@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: hue-rotate:(250deg) opacity(0.10);
+      filter: hue-rotate(250deg) opacity(0.10);
+
+      
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 5s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: hue-rotate:(0deg) opacity(1);
+	        filter: hue-rotate(0deg)opacity(1);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/picasso.jpg" alt="flower">
+
+</body>
+</html>
